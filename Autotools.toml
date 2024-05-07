@@ -1,0 +1,10 @@
+# This Autotools.toml provides a toml based configuration scheme, akin to what
+# is now common in the rust or python ecosystem with Cargo.toml or
+# pyproject.toml files. It is consumed by configure.ac with the autotools
+# tooling.
+
+[package]
+name      = "skeleton-autotools"
+version   = "0.0.1-alpha"
+email     = "bug@report.email"
+homepage  = "https://package.home.page"
