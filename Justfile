@@ -14,6 +14,10 @@ import? 'local.just'
 readme:
 	@bat README.md
 
+# Formats the readme file.
+format:
+	cat README.md | par "-P=[-=" > .README.md.par && mv .README.md.par README.md
+
 # Build the project.
 build:
 	@# Generate the configure script:
