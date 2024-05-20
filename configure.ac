@@ -1,11 +1,11 @@
 # Sets the package name and its version. See [init].
 # Information are fetched from the [Autotools.toml] file.
 AC_INIT(
-  m4_esyscmd([tomlq -f Autotools.toml package.name]),
-  m4_esyscmd([tomlq -f Autotools.toml package.version]),
-  m4_esyscmd([tomlq -f Autotools.toml package.email]),
-  m4_esyscmd([tomlq -f Autotools.toml package.name]),
-  m4_esyscmd([tomlq -f Autotools.toml package.homepage])
+  m4_esyscmd([tomlq -r .package.name      Autotools.toml]),
+  m4_esyscmd([tomlq -r .package.version   Autotools.toml]),
+  m4_esyscmd([tomlq -r .package.email     Autotools.toml]),
+  m4_esyscmd([tomlq -r .package.name      Autotools.toml]),
+  m4_esyscmd([tomlq -r .package.homepage  Autotools.toml])
 )
 
 AC_CONFIG_SRCDIR([main.c])
