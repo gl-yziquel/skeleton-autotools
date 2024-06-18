@@ -35,7 +35,10 @@ required.)
 Notes:
 ------
 
-The `freedesktop` project is heavily reliant on the autotools ecosystem and, as such, is a good entry point for the study of autotools. Of note, one may mention the [xorg-macros][xorg-macros] and the [makedepend][makedepend] packages.
+The `freedesktop` project is heavily reliant on the autotools ecosystem
+and, as such, is a good entry point for the study of autotools.
+Of note, one may mention the [xorg-macros][xorg-macros] and the
+[makedepend][makedepend] packages.
 
 [xorg-macros]: https://gitlab.freedesktop.org/xorg/util/macros
 [makedepend]: https://gitlab.freedesktop.org/xorg/util/makedepend
