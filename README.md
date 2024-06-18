@@ -32,6 +32,15 @@ required.)
 [tomlq-yq]: https://kislyuk.github.io/yq/#toml-support
 
 
+Notes:
+------
+
+The `freedesktop` project is heavily reliant on the autotools ecosystem and, as such, is a good entry point for the study of autotools. Of note, one may mention the [xorg-macros][xorg-macros] and the [makedepend][makedepend] packages.
+
+[xorg-macros]: https://gitlab.freedesktop.org/xorg/util/macros
+[makedepend]: https://gitlab.freedesktop.org/xorg/util/makedepend
+
+
 References:
 -----------
 
@@ -41,8 +50,6 @@ References:
 Autoconf, Automake and Libtool* book. This reference is however
 outdated: it claims `aclocal` requires a `configure.in` file as input,
 but it nowadays requires a `configure.ac` file, nowadays.
-
-
 
 [tuto-felix]: https://www.idryman.org/blog/2016/03/10/autoconf-tutorial-1/
 [book-mini]: https://www.sourceware.org/autobook/autobook/autobook_23.html#A-Minimal-GNU-Autotools-Project
